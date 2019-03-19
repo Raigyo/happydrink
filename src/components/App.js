@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import logo from '../assets/logo.svg';
 import '../css/App.css';
 import { establishments } from './establishments/fixtures';
+import Establishment from './establishments/Establishment';
 
 class App extends Component {
 
@@ -33,20 +34,12 @@ class App extends Component {
 
   render() {
       const listEstablishment = establishments.map( (establishment) => {
-          return (
-              // L'attribut "key" permet à React d'identifier les éléments.
-              // Cela améliore les performances lors de l'ajout,
-              // la modification et la suppression d'un élément.
-              <li
-                  key = { establishment.id }
-                  className = 'establishment'
-              >
-                  <h3>{ establishment.name }</h3>
-
-                  { establishment.description }
-
-              </li>
-          )
+        return (
+          <Establishment
+              key={ establishment.id }
+              establishment={ establishment } // on n'a pas oublié la props "establishment" :)
+          />
+        )
       })
 
       return (

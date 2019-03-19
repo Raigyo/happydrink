@@ -1,5 +1,4 @@
-import React, { Component } from 'react';
-import { establishments } from './establishments/fixtures';
+import React, { Component } from 'react'
 
 class Establishment extends Component {
 
