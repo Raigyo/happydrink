@@ -7,9 +7,13 @@
 First App with ReactJS
 
 [x] JSX syntax
+
 [x] Creating components
+
 [x] Map function
+
 [x] Render method
+
 [x] Props
 
 ## How to launch
