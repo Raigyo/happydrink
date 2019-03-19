@@ -1,7 +1,5 @@
 # Becode  JEPSEN LG - HappyDrink!
 
-![Becode logo](img/becode-logo.png)
-
 ## Description
 
 First App with ReactJS
