@@ -1,9 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import App      from './components/App';
+import './css/index.css';
+// Fichier : ./src/components/App.js [import]
 
+import logo                 from '../assets/logo.svg';
+import './css/App.css';
+
+import { establishments }    from './establishments/fixtures';
+import * as serviceWorker from './serviceWorker';
 // On ajoute le paramètre title à notre component
 ReactDOM.render(
     <App title = "HappyDrink"/>,
