@@ -14,6 +14,8 @@ First App with ReactJS
 
 [x] Props
 
+[x] State
+
 ## How to launch
 
 npm install -g create-react-app
