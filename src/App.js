@@ -1,27 +1,39 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import { establishments } from './fixtures';
 
 class App extends Component {
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    );
+      const listEstablishment = establishments.map( (establishment) => {
+          return (
+              // L'attribut "key" permet à React d'identifier les éléments.
+              // Cela améliore les performances lors de l'ajout,
+              // la modification et la suppression d'un élément.
+              <li
+                  key = { establishment.id }
+                  className = 'establishment'
+              >
+                  <h3>{ establishment.name }</h3>
+
+                  { establishment.description }
+
+              </li>
+          )
+      })
+
+      return (
+          <div className="App">
+              <div className="App-header">
+                  <img src={logo} className="App-logo" alt="logo" />
+                  <h2>Welcome to { this.props.title }</h2>
+              </div>
+              <div className="App-intro">
+                  { listEstablishment }
+              </div>
+
+          </div>
+      );
   }
 }
 
