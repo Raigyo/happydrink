@@ -2,7 +2,7 @@
   "name": "happydrink",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://raigyo.github.io/happydrink/",
+  "homepage": "https://github.com/Raigyo/happydrink",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.8.4",
