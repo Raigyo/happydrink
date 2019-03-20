@@ -16,6 +16,8 @@ First App with ReactJS
 
 [x] State
 
+[x] Scope / Bind
+
 ## How to launch
 
 npm install -g create-react-app
