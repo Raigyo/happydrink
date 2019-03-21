@@ -10,5 +10,5 @@
   "precache-manifest.2f2ef2fe1d2411993a0ab55e586ca31b.js": "/Raigyo/happydrink/precache-manifest.2f2ef2fe1d2411993a0ab55e586ca31b.js",
   "service-worker.js": "/Raigyo/happydrink/service-worker.js",
   "static/css/main.a53af98b.chunk.css.map": "/Raigyo/happydrink/static/css/main.a53af98b.chunk.css.map",
-  "static/media/logo.svg": "/Raigyo/happydrink/static/media/logo.5d5d9eef.svg"
+  "static/media/logo.svg": "static/media/logo.5d5d9eef.svg"
 }
