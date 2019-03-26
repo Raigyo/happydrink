@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Raigyo/happydrink/precache-manifest.79cf5c46e999b1aab1b8643713447f2a.js"
+  "/Raigyo/happydrink/precache-manifest.fbb2f9717b4d13563fc8ef341b012995.js"
 );
 
 workbox.clientsClaim();
