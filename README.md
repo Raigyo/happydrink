@@ -1,5 +1,13 @@
 # Becode  JEPSEN LG - HappyDrink!
 
+![Becode logo](https://raw.githubusercontent.com/Raigyo/react-character-manager/master/img/becode-logo.png)
+
+*March 2019*
+
+> 🔨  Exercise to learn ReactJS
+
+* * *
+
 [Github Page](https://raigyo.github.io/happydrink/)
 
 ## Description
