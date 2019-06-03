@@ -4,11 +4,9 @@
 
 *March 2019*
 
-> 🔨  Exercise to learn ReactJS
+> 🔨  Exercise to learn ReactJS. [Github Page](https://raigyo.github.io/happydrink/)
 
 * * *
-
-[Github Page](https://raigyo.github.io/happydrink/)
 
 ## Description
 
